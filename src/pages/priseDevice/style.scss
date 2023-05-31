@@ -1,0 +1,39 @@
+@import "src/assets/style/variables";
+#priseDevice{
+   width: 100%;
+  height: 100vh;
+  position: relative;
+
+}
+.device-container{
+   position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.device-header{
+   margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3{
+     font-size: $fontSize25;
+    font-weight: bold;
+
+  }
+  p{
+    font-size: $fontSize25;
+
+  }
+}
+.device-header > :not(:last-child){
+   margin: 0 0 20px;
+}
+.categories-block{
+   display: flex;
+   gap: 1.2%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}

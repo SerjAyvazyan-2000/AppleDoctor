@@ -1,0 +1,32 @@
+@import "src/assets/style/variables";
+
+
+.categories-item{
+   width: 19%;
+  margin: 0 0 20px;
+  height: 200px;
+  padding: 10px;
+  background-color: $oldlace;
+  transition: $transition;
+  border-radius: 10px;
+  cursor: pointer;
+
+
+
+  &:hover{
+    background-color: $oldlaceHover;
+  }
+
+
+  p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+}
+.categories-img{
+   width: 100%;
+  height: 150px;
+  border-radius: 10px;
+
+}
