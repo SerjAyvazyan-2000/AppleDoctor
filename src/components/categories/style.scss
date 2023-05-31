@@ -23,6 +23,19 @@
     font-weight: bold;
     margin-top: 10px;
   }
+
+  @media screen and (max-width: 1135px){
+     width: 24%;
+  }
+  @media screen and (max-width: 812px){
+    width: 32%;
+  }
+  @media screen and (max-width: 585px){
+    width: 49%;
+  }
+  @media screen and (max-width: 361px){
+    width: 100%;
+  }
 }
 .categories-img{
    width: 100%;

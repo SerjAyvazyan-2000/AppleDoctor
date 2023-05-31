@@ -1,0 +1,52 @@
+@import "src/assets/style/variables";
+.repair-prices-table{
+   display: flex;
+   justify-content: space-between;
+  margin-top: 20px;
+
+  @media screen  and (max-width: 808px){
+    flex-direction: column;
+  }
+}
+.repair-prices-header{
+   h3{
+      text-align: center;
+     font-size: $fontSize25;
+
+   }
+}
+
+.typeWork-block{
+   width: 49%;
+  height: 400px;
+
+  @media screen  and (max-width: 808px){
+    height: auto;
+    width: 100%;
+  }
+
+}
+.typeWork-block-info,.price-block-info{
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+
+
+}
+.price-block{
+   width: 49%;
+  height: 400px;
+
+  @media screen  and (max-width: 808px){
+    height: auto;
+    width: 100%;
+  }
+}
+.typeWork-block-title,.price-block-title{
+  p{
+    font-weight: bold;
+    font-size: $fontSize25;
+    text-align: center;
+
+  }
+}
