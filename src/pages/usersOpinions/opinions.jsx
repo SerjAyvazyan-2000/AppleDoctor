@@ -47,7 +47,7 @@ const Opinions = () => {
 
                     <div className="opinions-button">
                         <span> поставьте нам оценку</span>
-                        <button>оставить отзыв</button>
+                        <a href="https://yandex.ru/support/reviews/review.html">оставить отзыв</a>
                     </div>
                     <div className="users-opinions">
                         {opinionsList.map(item =>(
@@ -66,7 +66,7 @@ const Opinions = () => {
                     </div>
 
                     <div className="more-opinions-button">
-                        <button>больше отзыв в яндекс картах</button>
+                        <a href="https://yandex.ru/support/reviews/review.html"> больше отзыв в яндекс картах</a>
                     </div>
                 </div>
 

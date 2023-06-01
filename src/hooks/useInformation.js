@@ -24,9 +24,9 @@ import iPhone13 from "../../src/assets/images/iphone13.png"
 import iPhone13Mini from "../../src/assets/images/iphone13mini.png"
 import iPhone13Pro from "../../src/assets/images/iphone13pro.png"
 import iphoneXR from "../../src/assets/images/xr.jpg"
-
-
-
+import macBook from "../../src/assets/images/maxresdefault.JPG"
+import iMac from  "../assets/images/pro-xdr.png"
+import watch from "../assets/images/IMG_4258.JPG"
 import ipad from "../../src/assets/images/ipad_mini.png"
 import iMac1 from "../../src/assets/images/iphone14promax.jpg"
 
@@ -35,7 +35,7 @@ export const useInformation = () => {
     const categories = [
         {
             name: 'watch',
-            img: iMac1,
+            img: watch,
             categories: 'clock',
             id: 1
         },
@@ -59,13 +59,13 @@ export const useInformation = () => {
         },
         {
             name: 'MacBook',
-            img: iMac1,
+            img: macBook,
             categories: 'MacBook',
             id: 5
         },
         {
             name: 'iMac',
-            img: ipad,
+            img: iMac,
             categories: 'iMac',
             id: 6
         },
