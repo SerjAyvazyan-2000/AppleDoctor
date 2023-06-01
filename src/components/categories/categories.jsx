@@ -22,9 +22,7 @@ const Categories = ({categories}) => {
                 <p>{item.name}</p>
             </div>
         })}
-        {openModal ?
-            <MyModal productName={productName} products={newList} onClose={handleClick}/>
-            : null}
+        {openModal ? <MyModal productName={productName} products={newList} onClose={handleClick}></MyModal> : null}
 
     </>
 };

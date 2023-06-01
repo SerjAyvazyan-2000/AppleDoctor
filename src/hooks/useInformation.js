@@ -1,13 +1,14 @@
 import earphones from "../../src/assets/images/earphones.png"
 import iPhone from "../../src/assets/images/iphone14promax.jpg"
 import iPhone1 from "../../src/assets/images/iphone-leather-walle.png"
+import iPhone11pro from "../../src/assets/images/11 pro.jpg"
+import iPhone11 from "../../src/assets/images/11.jpg"
 
 import ipad from "../../src/assets/images/ipad_mini.png"
 import iMac1 from "../../src/assets/images/iphone14promax.jpg"
 
 
 export const useInformation = () => {
-
     const categories = [
         {
             name: 'watch',
@@ -48,6 +49,73 @@ export const useInformation = () => {
     ]
     const products = [
         {
+            name: "Iphone 11",
+            diagnostics: 'бесплатно',
+            DataRecovery:"4 500 ₽",
+            dataTransfer:'от 500 ₽',
+            faceIDRepair:'10 500 ₽',
+            polishingScreen:'от 5000 ₽',
+            touchScreen :'12 490 ₽',
+            touchScreenIf:'14 900 ₽',
+            replacementDisplay:'18 900 ₽',
+            replacementDisplayOriginal:'22 100 ₽',
+            resolvingError:'4 500 ₽',
+            img: iPhone11,
+            replacingMainCamera:'3 900 ₽',
+            replacingBattery:'6 500 ₽',
+            categories: 'iPhone',
+            replacingMainRearCamera:'6 900 ₽',
+            speakerMesh:'от 2500 ₽',
+            id: 8,
+            bodyReplacement :'от 16000 ₽',
+
+        },
+        {
+            name: "Iphone 11 Pro",
+            diagnostics: 'бесплатно',
+            DataRecovery:"4 500 ₽",
+            dataTransfer:'от 500 ₽',
+            faceIDRepair:'10 500 ₽',
+            polishingScreen:'от 5000 ₽',
+            touchScreen :'12 490 ₽',
+            touchScreenIf:'14 900 ₽',
+            replacementDisplay:'18 900 ₽',
+            replacementDisplayOriginal:'22 100 ₽',
+            resolvingError:'4 500 ₽',
+            img: iPhone11pro,
+            replacingMainCamera:'3 900 ₽',
+            replacingBattery:'6 500 ₽',
+            categories: 'iPhone',
+            replacingMainRearCamera:'6 900 ₽',
+            speakerMesh:'от 2500 ₽',
+            id: 7,
+            bodyReplacement :'от 16000 ₽',
+
+        },
+        {
+            name: "Iphone 11 Pro Max",
+            diagnostics: 'бесплатно',
+            DataRecovery:"4 500 ₽",
+            dataTransfer:'от 500 ₽',
+            faceIDRepair:'10 500 ₽',
+            polishingScreen:'от 5000 ₽',
+            touchScreen :'12 490 ₽',
+            touchScreenIf:'14 900 ₽',
+            replacementDisplay:'18 900 ₽',
+            replacementDisplayOriginal:'22 100 ₽',
+            resolvingError:'4 500 ₽',
+            img: iPhone11,
+            replacingMainCamera:'3 900 ₽',
+            replacingBattery:'6 500 ₽',
+            categories: 'iPhone',
+            replacingMainRearCamera:'6 900 ₽',
+            speakerMesh:'от 2500 ₽',
+            id: 1,
+            bodyReplacement :'от 16000 ₽',
+
+        },
+
+        {
             name: "Iphone",
             diagnostics: 'бесплатно',
             DataRecovery:"4 500 ₽",
@@ -65,7 +133,7 @@ export const useInformation = () => {
             categories: 'iPhone',
             replacingMainRearCamera:'6 900 ₽',
             speakerMesh:'от 2500 ₽',
-            id: 1,
+            id: 2,
             bodyReplacement :'от 16000 ₽',
 
         },
@@ -599,5 +667,45 @@ export const useInformation = () => {
 
 
     ]
-    return {categories,products}
+    const aboutWork  = [
+        {job:'Диагностика',id:1},
+        {job:'Восстановление данных (телефон перезагружается на "яблоке"',id:2},
+        {job:'Перенос данных',id:3},
+        {job:'Ремонт Face ID',id:4},
+        {job:'Полировка экрана от царапин',id:5},
+        {job:'Замена сенсорного стекла (стекло экрана)\n' +
+                '\n',id:6},
+        {job:'Замена сенсорного стекла + тачскрин (если сильно разбит или не работает сенсор)\n' +
+                '\n',id:7},
+        {job:'Замена дисплея (экрана), Original переклеенный\n' +
+                '\n',id:8},
+        {job:'Замена дисплея (экрана), Original переклеенный\n' +
+                '\n',id:9},
+        {job:'Замена дисплея (экрана), Original снятый\n' +
+                '\n',id:10},
+        {job:'Замена дисплея (экрана), Original снятый\n' +
+                '\n',id:11},
+        {job:'Устранение ошибки дисплея (проверка подлинности экрана)\n' +
+                '\n',id:12},
+        {job:'Замена дисплея (экрана), Original снятый' +
+                '',id:13},
+        {job:'Замена дисплейного модуля (TFT High Copy) копия высокого качества\n'
+                ,id:14},
+        {job:'Замена дисплейного модуля (OLED High Copy) копия высокого качества\n' +
+                '\n' ,id:15},
+        {job:'Замена аккумуляторной батареи\n' +
+                '\n',id:16},
+        {job:'Устранение ошибки АКБ (проверка подлинности аккумуляторной батареи)',id:17},
+        {job:'Замена линзы основной камеры (стекло камеры)\n' +
+                '\n',id:18},
+        {job:'Замена основной (задней) камеры\n' +
+                '\n',id:19},
+        {job:'Замена сетки динамика\n' +
+                '\n',id:20},
+        {job:'Замена корпуса (только снятый оригинал)\n' +
+                '\n',id:21},
+
+
+    ]
+    return {categories,products ,aboutWork}
 }

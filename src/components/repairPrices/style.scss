@@ -1,52 +1,71 @@
 @import "src/assets/style/variables";
-.repair-prices-table{
-   display: flex;
-   justify-content: space-between;
+
+.repair-prices-box {
+  width: 100%;
+  height: 100vh;
+}
+
+.repair-prices-table {
+  display: flex;
+  justify-content: space-between;
   margin-top: 20px;
 
-  @media screen  and (max-width: 808px){
-    flex-direction: column;
+
+}
+
+.repair-prices-header {
+  h3 {
+    text-align: center;
+    font-size: $fontSize25;
+
   }
 }
-.repair-prices-header{
-   h3{
-      text-align: center;
-     font-size: $fontSize25;
 
-   }
+.typeWork-title {
+  display: flex;
+  justify-content: space-between;
 }
 
-.typeWork-block{
-   width: 49%;
-  height: 400px;
+.typeWork-block {
+  width: 100%;
 
-  @media screen  and (max-width: 808px){
+  @media screen and (max-width: 808px) {
     height: auto;
     width: 100%;
   }
 
 }
-.typeWork-block-info,.price-block-info{
+
+.typeWork-block-info {
   width: 100%;
   height: 100%;
-  border: 1px solid red;
+  margin-top: 20px;
 
 
 }
-.price-block{
-   width: 49%;
-  height: 400px;
 
-  @media screen  and (max-width: 808px){
-    height: auto;
-    width: 100%;
-  }
-}
-.typeWork-block-title,.price-block-title{
-  p{
+
+.typeWork-block-title {
+  p {
     font-weight: bold;
     font-size: $fontSize25;
     text-align: center;
+    @media screen and (max-width: 389px) {
+      font-size: 20px;
 
+    }
+  }
+
+}
+
+.about-work-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+
+  p {
+    margin: 0 0 20px;
+    padding: 10px;
   }
 }
+
