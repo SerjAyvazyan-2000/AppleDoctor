@@ -1,0 +1,155 @@
+@import "src/assets/style/variables";
+
+#contact {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.contact-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+
+}
+
+
+.contact-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+
+  p{
+    color: white;
+    font-size: $fontSize25;
+    line-height: $lineHeight;
+    max-width: 500px;
+  }
+  @media screen  and (max-width: 899px){
+     flex-direction: column;
+  }
+}
+.contact-title{
+
+  h2 {
+    color: $white;
+    font-size: $fontSize25;
+    font-weight: bold;
+    line-height: $lineHeight;
+    max-width: 500px;
+  }
+}
+.contact-information > :not(:last-child){
+   margin: 0 0 30px;
+}
+.input-block{
+  margin: 0 0 20px;
+  input{
+     background: $white;
+    padding: 10px;
+    border: none;
+    transition: .3s;
+
+    &:focus{
+       border: 2px solid $blue;
+    }
+  }
+}
+.send-message{
+  button {
+    padding: 10px 10px;
+    background: aqua;
+    border-radius: 10px;
+    transition: $transition;
+    color: $black;
+
+    &:hover {
+      background: $blue;
+    }
+  }
+}
+.contact-tools{
+   margin-top: 20px;
+}
+.contact-number{
+
+  a{
+     text-decoration: underline;
+    padding: 20px;
+    color: $white;
+
+    @media screen  and (max-width: 899px){
+      padding: 0;
+
+    }
+  }
+}
+.contact-icons{
+  display: flex;
+  justify-content: center;
+  @media screen  and (max-width: 899px){
+    justify-content: flex-start;
+
+  }
+}
+.icons-list{
+  display: inline-flex;
+  list-style: none;
+
+  .icon{
+    position: relative;
+    background: $openRed;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 25px;
+    font-size: $fontSize25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68 ,0.55,0.265,1.55);//urish xaxerova ashxatum
+
+  }
+
+  .tooltip{
+    position: absolute;
+    top: 0;
+    font-size: $font-size-16;
+    background: aqua;
+    border-radius: 20px;
+    color: black;
+    padding: 5px 8px;
+    box-shadow: 0 10px 10px rgba(0.68 ,0.55,0.265,1.55);
+    opacity: 0;
+    transition:  0.5s cubic-bezier(0.68 ,0.55,0.265,1.55);//esim inch chi
+
+  }
+
+  .icon:hover .tooltip{
+    top: -45px;
+    opacity: 1;
+
+
+  }
+
+  .whatsapp:hover,
+  .whatsapp:hover .tooltip {
+    background: #18cb18;
+  }
+
+  .telegram:hover,
+  .telegram:hover .tooltip {
+    background: #7575f1;
+  }
+
+  .vk:hover,
+  .vk:hover .tooltip {
+    background: aqua;
+  }
+
+}
+

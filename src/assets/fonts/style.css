@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?gyicp0');
-  src:  url('fonts/icomoon.eot?gyicp0#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?gyicp0') format('truetype'),
-    url('fonts/icomoon.woff?gyicp0') format('woff'),
-    url('fonts/icomoon.svg?gyicp0#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?oht3ix');
+  src:  url('fonts/icomoon.eot?oht3ix#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?oht3ix') format('truetype'),
+    url('fonts/icomoon.woff?oht3ix') format('woff'),
+    url('fonts/icomoon.svg?oht3ix#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -238,8 +238,14 @@
 .icon-spotify:before {
   content: "\ea94";
 }
+.icon-telegram:before {
+  content: "\ea95";
+}
 .icon-twitter:before {
   content: "\ea96";
+}
+.icon-vk:before {
+  content: "\ea98";
 }
 .icon-youtube2:before {
   content: "\ea9e";

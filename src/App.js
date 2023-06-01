@@ -8,15 +8,17 @@ import Opinions from "./pages/usersOpinions/opinions";
 import PriseDevice from "./pages/priseDevice/priseDevice";
 import ScrollTop from "./components/scrollTop/scrollTop";
 import "../src/assets/fonts/style.css"
+import Contact from "./pages/contact/contact";
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
        <Header/>
         <Home/>
         <AboutUs/>
         <Opinions/>
         <PriseDevice/>
         <ScrollTop/>
+        <Contact/>
     </div>
   );
 }

@@ -20,7 +20,7 @@ const Menu = ({menuActive}) => {
                        className={activeNav === "#priseDevice" ? "active" : ''}>цены</a>
                 </li>
                 <li>
-                    <a href="#контакты " onClick={() => setActiveNav("#контакты")}
+                    <a href="#contact " onClick={() => setActiveNav("#контакты")}
                        className={activeNav === "#portfolio" ? "active" : ''}>контакты </a>
                 </li>
             </ul>

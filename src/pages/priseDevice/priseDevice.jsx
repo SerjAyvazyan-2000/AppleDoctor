@@ -14,7 +14,6 @@ const PriseDevice = () => {
                 </div>
                 <div className="categories-block">
                     <Categories categories={categories}/>
-
                 </div>
             </div>
         </div>

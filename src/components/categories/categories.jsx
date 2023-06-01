@@ -5,12 +5,12 @@ import {useInformation} from "../../hooks/useInformation";
 
 const Categories = ({categories}) => {
     const [openModal, setOpenModal] = useState(false)
-    const [productName,setProductName] = useState('')
+    const [categoriesName,setCategoriesName] = useState('')
     const [newList,setNewList] = useState([])
     const { products} = useInformation()
     const handleClick = (name) => {
         setOpenModal(!openModal)
-        setProductName(name)
+        setCategoriesName(name)
          let newList = products.filter(item =>  item.categories === name)
         setNewList(newList)
     }
@@ -22,7 +22,7 @@ const Categories = ({categories}) => {
                 <p>{item.name}</p>
             </div>
         })}
-        {openModal ? <MyModal productName={productName} products={newList} onClose={handleClick}></MyModal> : null}
+        {openModal ? <MyModal categoriesName={categoriesName} products={newList} onClose={handleClick}></MyModal> : null}
 
     </>
 };
