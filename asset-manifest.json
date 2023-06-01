@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/AppleDoctor/static/css/main.413fe154.css",
-    "main.js": "/AppleDoctor/static/js/main.7ed4e32d.js",
+    "main.css": "/AppleDoctor/static/css/main.8fd0ec24.css",
+    "main.js": "/AppleDoctor/static/js/main.a4ec9362.js",
     "static/js/787.28cb0dcd.chunk.js": "/AppleDoctor/static/js/787.28cb0dcd.chunk.js",
     "static/media/home.JPG": "/AppleDoctor/static/media/home.6e8ea62cf4aa528046dd.JPG",
     "static/media/fonAbout.JPG": "/AppleDoctor/static/media/fonAbout.2d5955d320d342e08df9.JPG",
     "static/media/about.JPG": "/AppleDoctor/static/media/about.a7eca4a6df688c1937bd.JPG",
+    "static/media/icomoon.svg?gyicp0": "/AppleDoctor/static/media/icomoon.eeb70a748cc8857682e8.svg",
+    "static/media/icomoon.eot?gyicp0": "/AppleDoctor/static/media/icomoon.a6fe40c001d1b6ae67bf.eot",
+    "static/media/icomoon.woff?gyicp0": "/AppleDoctor/static/media/icomoon.b9d15ecab9e4788333d9.woff",
+    "static/media/icomoon.ttf?gyicp0": "/AppleDoctor/static/media/icomoon.f10f326d0932dd143ff4.ttf",
     "static/media/ipad_mini.png": "/AppleDoctor/static/media/ipad_mini.d1950b1edc6324fad283.png",
     "static/media/iphone14promax.jpg": "/AppleDoctor/static/media/iphone14promax.3ee9c473ce2e85d5f891.jpg",
     "static/media/logo.png": "/AppleDoctor/static/media/logo.f86cb61d6c78a09ceb86.png",
+    "static/media/11 pro.jpg": "/AppleDoctor/static/media/11 pro.a7ec4c1a8e09c8cc529f.jpg",
     "static/media/logo.svg": "/AppleDoctor/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/AppleDoctor/index.html",
-    "main.413fe154.css.map": "/AppleDoctor/static/css/main.413fe154.css.map",
-    "main.7ed4e32d.js.map": "/AppleDoctor/static/js/main.7ed4e32d.js.map",
+    "main.8fd0ec24.css.map": "/AppleDoctor/static/css/main.8fd0ec24.css.map",
+    "main.a4ec9362.js.map": "/AppleDoctor/static/js/main.a4ec9362.js.map",
     "787.28cb0dcd.chunk.js.map": "/AppleDoctor/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.413fe154.css",
-    "static/js/main.7ed4e32d.js"
+    "static/css/main.8fd0ec24.css",
+    "static/js/main.a4ec9362.js"
   ]
 }
