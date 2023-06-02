@@ -4,9 +4,8 @@ import "./style.scss"
 const Menu = ({menuActive}) => {
     const [activeNav, setActiveNav] = useState("#")
 
-    return <div className={menuActive ? "menu-burger active" : "menu"}>
-        <div className={menuActive ? "menu-content-burger " : "menu-content"}>
-            <ul>
+    return <nav className= {!menuActive ?"header-menu" : "header-menu active"}>
+            <ul className="header-list">
                 <li>
                     <a href="#" onClick={() => setActiveNav("#")}
                        className={activeNav === "#" ? "active" : ''}>О нас</a>
@@ -24,8 +23,7 @@ const Menu = ({menuActive}) => {
                        className={activeNav === "#portfolio" ? "active" : ''}>контакты </a>
                 </li>
             </ul>
-        </div>
-    </div>
+    </nav>
 }
 
 export default Menu

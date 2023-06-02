@@ -16,13 +16,12 @@ const Header = () => {
                     </h1>
                 </div>
 
-
-                <div className="header-menu">
+                <div className="header-navigation">
                     <Menu menuActive={menuActive} setMenuActive={setMenuActive}/>
                     <div className="header-contact">
                         <a href="tel:+7 (999)999-09-92">+7 (999)999-09-92</a>
                     </div>
-                   <div className="burger-btn" onClick={()=>setMenuActive(!menuActive)}>
+                   <div className={!menuActive ? "burger-btn" : "burger-btn active" } onClick={()=>setMenuActive(!menuActive)}>
                        <span ></span>
                    </div>
                 </div>
