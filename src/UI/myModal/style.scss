@@ -13,6 +13,7 @@
 
 }
 
+
 .modal-bg {
   position: absolute;
   width: 100%;
@@ -26,7 +27,7 @@
 
 .modal-content {
   height: 90%;
-  width: 100%;
+  width: 90%;
   position: relative;
   background: white;
 }
@@ -47,12 +48,12 @@
   font-size: $fontSize25;
 }
 .onclose-modal{
-  position: absolute;
-  right: 30px;
-  top: 10px;
   font-size: $fontSize25;
   color: red;
   cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
 
 
 }

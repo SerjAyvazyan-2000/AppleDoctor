@@ -3,7 +3,9 @@
 .repair-prices-box {
   width: 100%;
   height: 100vh;
+  position: relative;
 }
+
 
 .repair-prices-table {
   display: flex;
@@ -12,6 +14,7 @@
 }
 
 .repair-prices-header {
+  padding: 20px 0 0 ;
   h3 {
     text-align: center;
     font-size: $fontSize25;

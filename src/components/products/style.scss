@@ -43,4 +43,17 @@
 .product-img {
   width: 100%;
   height: 80%;
+  margin: 0 auto;
+  @media screen and (max-width: 1135px){
+    width: 80%;
+  }
+  @media screen and (max-width: 812px){
+    width: 70%;
+  }
+  @media screen and (max-width: 585px){
+    width: 60%;
+  }
+  @media screen and (max-width: 437px){
+    width: 50%;
+  }
 }
