@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AppleDoctor/static/css/main.41830011.css",
-    "main.js": "/AppleDoctor/static/js/main.df36fee4.js",
+    "main.css": "/AppleDoctor/static/css/main.c991fe66.css",
+    "main.js": "/AppleDoctor/static/js/main.fafc0b85.js",
     "static/js/787.28cb0dcd.chunk.js": "/AppleDoctor/static/js/787.28cb0dcd.chunk.js",
     "static/media/home.JPG": "/AppleDoctor/static/media/home.6e8ea62cf4aa528046dd.JPG",
     "static/media/fonAbout.JPG": "/AppleDoctor/static/media/fonAbout.2d5955d320d342e08df9.JPG",
@@ -22,12 +22,12 @@
     "static/media/11 pro.jpg": "/AppleDoctor/static/media/11 pro.a7ec4c1a8e09c8cc529f.jpg",
     "static/media/logo.svg": "/AppleDoctor/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/AppleDoctor/index.html",
-    "main.41830011.css.map": "/AppleDoctor/static/css/main.41830011.css.map",
-    "main.df36fee4.js.map": "/AppleDoctor/static/js/main.df36fee4.js.map",
+    "main.c991fe66.css.map": "/AppleDoctor/static/css/main.c991fe66.css.map",
+    "main.fafc0b85.js.map": "/AppleDoctor/static/js/main.fafc0b85.js.map",
     "787.28cb0dcd.chunk.js.map": "/AppleDoctor/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41830011.css",
-    "static/js/main.df36fee4.js"
+    "static/css/main.c991fe66.css",
+    "static/js/main.fafc0b85.js"
   ]
 }
