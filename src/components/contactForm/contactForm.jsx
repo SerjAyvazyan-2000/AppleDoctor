@@ -40,11 +40,6 @@ const ContactForm = () => {
         }
     };
     return <>
-        <div className="contact-title">
-
-            <h2>Сервисный центр на вднх</h2>
-            <p> диагностика бесплатно даже при отказе от товара</p>
-        </div>
         <form ref={form} className="contact-form">
             <div className="input-block">
                 <label htmlFor="">

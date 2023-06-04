@@ -5,6 +5,7 @@ import RepairPrices from "../../components/repairPrices/repairPrices";
 import Product from "../../components/products/products";
 import Products from "../../components/products/products";
 import Contact from "../../pages/contact/contact";
+import ContactForm from "../../components/contactForm/contactForm";
 
 const MyModal = ({categoriesName, products, onClose, openModal}) => {
     const [jobsList, setJobsList] = useState([])
@@ -48,7 +49,7 @@ const MyModal = ({categoriesName, products, onClose, openModal}) => {
                         </div>
 
                         <div className="popup-text">
-                            {!categoriesName ? <Contact/> : <Products products={products} handleClick={handleClick}/>}
+                            {!categoriesName ?   <ContactForm/> : <Products products={products} handleClick={handleClick}/>}
 
                             {jobsList.length ?
                                 <RepairPrices productName={productName} jobsList={jobsList}/>

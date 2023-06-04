@@ -1,7 +1,6 @@
-import  {useRef} from 'react';
+import React, {useRef} from 'react';
 import "./style.scss"
 import contactImage from "../../assets/images/footer.JPG";
-import emailjs from "emailjs-com"
 import ContactForm from "../../components/contactForm/contactForm";
 
 const Contact = () => {
@@ -13,6 +12,11 @@ const Contact = () => {
                 <div className="G-container">
                     <div className="contact-container">
                         <div className="contact-information">
+                            <div className="contact-title">
+
+                                <h2>Сервисный центр на вднх</h2>
+                                <p> диагностика бесплатно даже при отказе от товара</p>
+                            </div>
                              <ContactForm/>
                         </div>
                         <div className="contact-tools">
@@ -27,7 +31,6 @@ const Contact = () => {
                              <div className="contact-icons">
                                      <ul className="icons-list">
                                          <li className="icon whatsapp">
-
                                              <span className="tooltip">Whatsapp</span>
                                              <a href="https://api.whatsapp.com/send?phone+7 999 999-09-92" className="icon-whatsapp"></a>
                                          </li>
