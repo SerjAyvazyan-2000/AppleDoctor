@@ -1,0 +1,43 @@
+@import "src/assets/style/variables";
+
+.input-block{
+  margin: 0 0 20px;
+  input{
+    background: white;
+    padding: 10px;
+    border: none;
+    color: black;
+
+
+  }
+  p{
+     color: $darkRed;
+    font-size: 20px;
+  }
+
+}
+.contact-title{
+
+  h2 {
+    color: $white;
+    font-size: $fontSize25;
+    font-weight: bold;
+    line-height: $lineHeight;
+    max-width: 500px;
+  }
+}
+
+.send-message{
+  padding: 0 0 10px;
+  button {
+    padding: 10px 10px;
+    background: $openRed;
+    border-radius: 10px;
+    transition: $transition;
+    color: $black;
+
+    &:hover {
+      background: $darkRed;
+    }
+  }
+}

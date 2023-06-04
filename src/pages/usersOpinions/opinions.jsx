@@ -66,9 +66,11 @@ const Opinions = () => {
                     </div>
 
                     <div className="more-opinions-button">
-                        <a href="https://yandex.ru/support/reviews/review.html"> больше отзыв в яндекс картах</a>
+                        <iframe src="https://yandex.ru/sprav/widget/rating-badge/45881699480?type=rating&theme=dark" width="150"
+                                height="50" frameBorder="0">больше отзыв в яндекс картах</iframe>
                     </div>
                 </div>
+
 
             </div>
         </div>

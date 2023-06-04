@@ -73,9 +73,19 @@
 .about-img{
 
   img{
-    width: 400px;
+    width: 50%;
     height: 400px;
+
+    @media screen  and (max-width: 884px){
+      width: 50%;
+    }
+    @media screen  and (max-width: 415px){
+      width: 100%;
+    }
   }
+
+
+
 
 }
 .about-block{

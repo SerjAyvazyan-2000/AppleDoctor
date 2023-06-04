@@ -1,49 +1,19 @@
 import  {useRef} from 'react';
 import "./style.scss"
-import contactImage from "../../assets/images/contact.jpg";
+import contactImage from "../../assets/images/footer.JPG";
 import emailjs from "emailjs-com"
+import ContactForm from "../../components/contactForm/contactForm";
 
 const Contact = () => {
 
-    const form = useRef()
 
-    const sendEmail = (e) => {
-        e.preventDefault();
-        emailjs.sendForm('service_ew5ppuk', 'template_wr3n8gx', form.current, 'pp6TwyxOmOcVm8rmi')
-        e.target.reset()
-    };
 
     return <section id="contact">
         <div style={{backgroundImage: `url(${contactImage})`}} className="contact-image G-image">
                 <div className="G-container">
                     <div className="contact-container">
                         <div className="contact-information">
-                            <div className="contact-title">
-
-                                <h2>Сервисный центр на вднх</h2>
-                                <p> диагностика бесплатно даже при отказе от товара</p>
-                            </div>
-                                <form ref={form} onSubmit={sendEmail} className="contact-form">
-                                    <div className="input-block">
-                                        <label htmlFor="">
-                                            <input name="name" type="text" placeholder="ваше имя" required/>
-                                        </label>
-                                    </div>
-                                    <div className="input-block">
-
-                                        <label htmlFor="">
-                                            <input name="number" type="number" placeholder="+7 (999)999-09-92 " required/>
-                                        </label>
-                                    </div>
-                                    <div className="textarea">
-                                        <textarea name="message" rows="7" placeholder="Укажите проблему (необязательно)" required></textarea>
-                                    </div>
-                                    <div className="send-message">
-                                        <button>Отправить</button>
-
-                                    </div>
-                                </form>
-
+                             <ContactForm/>
                         </div>
                         <div className="contact-tools">
                             <div className="contact-body">
