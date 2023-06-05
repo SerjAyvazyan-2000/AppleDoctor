@@ -43,7 +43,7 @@ const ContactForm = () => {
         <form ref={form} className="contact-form">
             <div className="input-block">
                 <label htmlFor="">
-                    <input value={message.name} onChange={handleChange} name="name" type="text" placeholder="ваше имя" required/>
+                    <input value={message.name} onChange={handleChange} name="name" type="text" placeholder="Ваше имя" required/>
                     <p>{errorText.name}</p>
                 </label>
             </div>

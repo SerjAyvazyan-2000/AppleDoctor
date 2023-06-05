@@ -26,7 +26,6 @@ const RepairPrices = ({jobsList, onClose,productName}) => {
                             : null}
 
                     </div>
-
                 </div>
             </div>
 

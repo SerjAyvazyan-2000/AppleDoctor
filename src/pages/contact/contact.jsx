@@ -21,7 +21,7 @@ const Contact = () => {
                         </div>
                         <div className="contact-tools">
                             <div className="contact-body">
-                                <p>    срочный ремонт техники Apple</p>
+                                <p>    Срочный ремонт техники Apple</p>
                                 <p>    Оставьте заявку и получите скидку</p>
                             </div>
                             <div className="contact-number">
