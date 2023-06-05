@@ -18,13 +18,12 @@
 .home-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
 
 
 }
 .home-description-info{
-   height: 300px;
+   height: 400px;
   h3{
      color: white;
     font-size: $fontSize25;
@@ -35,6 +34,7 @@
 
 
   }
+
 }
 .home-logo{
    display: flex;

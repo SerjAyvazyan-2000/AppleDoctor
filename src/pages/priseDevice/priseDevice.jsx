@@ -12,9 +12,7 @@ const PriseDevice = () => {
                     <h3>Цены на ремонт техники Apple:</h3>
                     <p>Выберите устройство из списка</p>
                 </div>
-                <div className="categories-block">
                     <Categories categories={categories}/>
-                </div>
             </div>
         </div>
 

@@ -88,11 +88,18 @@
   overflow-x: hidden;
   transition: 0.4s;
   z-index: 10;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 .popup.active{
   opacity: 1;
   visibility: visible;
+
 }
+
+
 .popup.active .popup-content{
   opacity: 1;
   transform: perspective(600px) translate(0px, 0px) rotateX(0deg);

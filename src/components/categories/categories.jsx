@@ -18,8 +18,10 @@ const Categories = ({categories}) => {
         setNewList(newList)
     }
     return <>
+
+        <div className="categories-block">
         {categories.map((item, index) => {
-            return <div className="categories-item">
+            return <div key={item.id} className={openModal ? "categories-item bodyOverflow" :"categories-item" }>
                 <div onClick={() => handleClick(item.categories)} style={{backgroundImage: `url(${item.img})`}}
                      key={item.id}
                      className="categories-img G-image"></div>
@@ -27,15 +29,16 @@ const Categories = ({categories}) => {
             </div>
         })}
 
-
         <MyModal
             openModal={openModal}
             categoriesName={categoriesName}
             products={newList}
             onClose={handleClick}>
+
         </MyModal>
 
-    </>
+    </div>
+        </>
 };
 
 export default Categories;

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./style.scss"
 import iPhone from "../../assets/images/iphone14promax.jpg";
 import RepairPrices from "../../components/repairPrices/repairPrices";
@@ -16,6 +16,12 @@ const MyModal = ({categoriesName, products, onClose, openModal}) => {
         }
         setProductName(name)
     }
+    useEffect(()=>{
+        if(!openModal){
+            setProductName('')
+
+        }
+    })
 
     return <>
         {/*<div className="modal-block">*/}
@@ -51,8 +57,13 @@ const MyModal = ({categoriesName, products, onClose, openModal}) => {
                         <div className="popup-text">
                             {!categoriesName ?   <ContactForm/> : <Products products={products} handleClick={handleClick}/>}
 
-                            {jobsList.length ?
-                                <RepairPrices productName={productName} jobsList={jobsList}/>
+                            {jobsList.length  && productName ?
+                                <RepairPrices
+                                    categoriesName={categoriesName}
+                                    productName={productName}
+                                    jobsList={jobsList}
+                                    openModal={openModal}
+                                />
                                 : null}
 
                         </div>
