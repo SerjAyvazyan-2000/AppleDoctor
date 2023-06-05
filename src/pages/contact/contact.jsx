@@ -14,8 +14,8 @@ const Contact = () => {
                         <div className="contact-information">
                             <div className="contact-title">
 
-                                <h2>Сервисный центр на вднх</h2>
-                                <p> диагностика бесплатно даже при отказе от товара</p>
+                                <h2>ервисный центр на ВДНХ</h2>
+                                <p>Диагностика — бесплатно, даже при отказе от ремонта</p>
                             </div>
                              <ContactForm/>
                         </div>

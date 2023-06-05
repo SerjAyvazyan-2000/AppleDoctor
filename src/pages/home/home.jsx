@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.scss"
-import homeImage from "../../assets/images/home.JPG"
+import homeImage from "../../assets/images/fon.jpg"
 import logo from "../../assets/images/logo.png"
 
 const Home = () => {
@@ -16,13 +16,7 @@ const Home = () => {
                         <div className="home-logo-text">
                             <h3>Диагностика бесплатно- даже при отказе от ремонта</h3>
                         </div>
-                        <div className="home-logo-img">
-                            <img src={logo} alt=""/>
-                            <h3>Apple <span>Doctor</span></h3>
-                        </div>
                     </div>
-
-
                 </div>
 
 

@@ -7,19 +7,6 @@ import logo from "../../assets/images/logo.png"
 
 const Opinions = () => {
 
-    const opinionsList = [
-        {
-            name: "Егор М",
-            img: user,
-            stars: 5,
-            text: 'Минусы не заменил 14 про сделали быстро.мастера супер.тепер толъко сюда',
-            data: '20 январь',
-            id: 1,
-
-        }
-    ]
-
-
     return <section id="opinions">
 
         <div className="opinions-container">

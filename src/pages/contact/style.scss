@@ -16,7 +16,7 @@
 
 
 .contact-container {
-  padding: 100px 0 0 ;
+  padding: 70px 0 0 ;
   display: flex;
   justify-content: space-between;
 
@@ -41,6 +41,7 @@
      text-decoration: underline;
     padding: 20px 0 0;
     color: $white;
+    font-size: $fontSize25;
 
     @media screen  and (max-width: 899px){
       padding: 0;
