@@ -23,33 +23,20 @@
 }
 .just-title,.discount-title{
    h3{
-     color: $darkRed;
+     color: $openRed;
      font-size: $fontSize20;
      text-align: center;
 
    }
 }
 
-//.justUs-block,.discount-block{
-//   width: 49%;
-//  border: 1px solid red;
-//  margin-top: 80px;
-//
-//}
+
 .justUs-block{
-   width: 59%;
     margin-top: 80px;
-  @media screen  and (max-width: 1000px){
-    width: 100%;
-  }
+  width: 100%;
+
 }
-.discount-block{
-   width: 39%;
-  margin-top: 80px;
-  @media screen  and (max-width: 1000px){
-    width: 100%;
-  }
-}
+
 
 .just-item{
  display: flex;
@@ -58,11 +45,10 @@
     font-size: $fontSize20;
     color: white;
     letter-spacing: 1px;
-    max-width: 600px;
-    @media screen  and (max-width: 1000px){
+    @media screen  and (max-width: 942px){
       max-width: 600px;
     }
-    @media screen  and (max-width: 517px){
+    @media screen  and (max-width: 604px){
       max-width: 400px;
     }
     @media screen  and (max-width: 449px){
@@ -73,9 +59,11 @@
   p{
     color: #938a8a;
     letter-spacing: 1px;
-    max-width: 600px;
 
-    @media screen  and (max-width: 517px){
+    @media screen  and (max-width: 942px){
+      max-width: 600px;
+    }
+    @media screen  and (max-width: 604px){
       max-width: 400px;
     }
     @media screen  and (max-width: 449px){
@@ -106,27 +94,4 @@
 }
 .just-item-description > :not(:last-child){
   margin: 10px 0 10px;
-}
-.discount-block > :not(:last-child){
-  margin: 0 0 30px;
-}
-.discount-item > :not(:last-child){
-  margin: 0 0 20px;
-}
-.discount-item{
-  h3{
-    color: $darkRed;
-    font-size: $fontSize20;
-    text-align: center;
-    letter-spacing: 1px;
-
-  }
-  p{
-    color: #938a8a;
-    letter-spacing: 1px;
-    @media screen  and (max-width: 1000px){
-      text-align: center;
-    }
-  }
-
 }

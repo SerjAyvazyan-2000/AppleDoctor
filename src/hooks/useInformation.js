@@ -32,7 +32,7 @@ import macBook from "../../src/assets/images/macbook.jpg"
 import macBookPro from "../../src/assets/images/macbook-pro-sierra-wallpaper.jpg"
 import macBookAir from "../../src/assets/images/MacBook_air-Digital_HD_Wallpaper_1280x1024.jpg"
 import macBook12 from "../../src/assets/images/apple_z0te00035_5.jpg"
-import star from "../../src/assets/images/star 2.jpg"
+import star from "../../src/assets/images/star.jpg"
 
 
 export const useInformation = () => {
