@@ -9,18 +9,6 @@
   top: 0;
   z-index: 50;
 
-  //@media screen and (max-width: 928px) {
-  //  &::before {
-  //    content: '';
-  //    position: absolute;
-  //    left: 0;
-  //    top: 0;
-  //    width: 100%;
-  //    height: 100%;
-  //    background-color: #625f5f;
-  //    z-index: 3;
-  //  }
-  //}
 
 }
 
@@ -79,7 +67,7 @@
     color: white;
   }
 
-  @media screen and (max-width: 928px) {
+  @media screen and (max-width: 1043px) {
     display: none;
   }
 }
@@ -93,7 +81,7 @@
   z-index: 3;
 
 
-  @media screen and (max-width: 928px) {
+  @media screen and (max-width: 1043px) {
     display: block;
   }
 
@@ -145,3 +133,5 @@
 .burger-btn.active span{
   transform: scale(0);
 }
+
+

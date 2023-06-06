@@ -21,7 +21,7 @@ const Categories = ({categories}) => {
 
         <div className="categories-block">
         {categories.map((item, index) => {
-            return <div key={item.id} className={openModal ? "categories-item bodyOverflow" :"categories-item" }>
+            return <div key={item.id} className="categories-item">
                 <div onClick={() => handleClick(item.categories)} style={{backgroundImage: `url(${item.img})`}}
                      key={item.id}
                      className="categories-img G-image"></div>

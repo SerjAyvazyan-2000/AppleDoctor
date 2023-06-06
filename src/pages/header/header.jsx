@@ -17,7 +17,8 @@ const Header = () => {
                 </div>
 
                 <div className="header-navigation">
-                    <Menu menuActive={menuActive} setMenuActive={setMenuActive}/>
+                        <Menu menuActive={menuActive} setMenuActive={setMenuActive}/>
+
                     <div className="header-contact">
                         <a href="tel:+7 (999)999-09-92">+7 (999)999-09-92</a>
                     </div>

@@ -1,7 +1,7 @@
 @import "src/assets/style/variables";
 
 #contact {
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -65,6 +65,13 @@
     justify-content: flex-start;
 
   }
+}
+.contact-body{
+   p{
+     span{
+        text-transform: uppercase;
+     }
+   }
 }
 .icons-list{
   display: inline-flex;

@@ -25,12 +25,34 @@
 
 
 }
+.home-description-title{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
+  p{
+    cursor: pointer;
+    color: $openRed;
+    line-height: $lineHeight;
+    font-size: $fontSize40;
+    margin-top: 40px;
+
+    @media screen and (max-width: 753px){
+      margin-top: 70px;
+
+    }
+  }
+}
 .home-description-info {
-  height: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 
   h3 {
     color: $openRed;
+    margin-top: 40px;
     font-size: $fontSize40;
     letter-spacing: 1px;
     max-width: 400px;
@@ -39,23 +61,51 @@
 
 
   }
+  p{
+    color: $openRed;
+    margin-top: 40px;
+    font-size: $fontSize40;
+    letter-spacing: 1px;
+    max-width: 400px;
+    line-height: $lineHeight;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
 }
 
 
-.home-logo-text {
+.home-logo-block {
   max-width: 500px;
   border-radius: 40px;
+  position: relative;
+
+}
+.logo-text{
+  position: relative;
+
   h3 {
     color: white;
     font-size: $fontSize25;
     letter-spacing: 2px;
     line-height: $lineHeight;
     text-transform: uppercase;
+    padding: 20px;
+
 
   }
 
   span {
     color: $openRed;
   }
+}
+.logo-bg{
+   position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: black;
+  opacity: .3;
+  border-radius: 40px;
 }

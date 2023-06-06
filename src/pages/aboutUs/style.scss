@@ -63,9 +63,7 @@
     @media screen  and (max-width: 449px){
       text-align: center;
     }
-    @media screen and (max-width: 440px){
-      display: none;
-    }
+
   }
   p{
     color: #938a8a;
@@ -113,7 +111,7 @@
   }
 }
 .discount-items > :not(:last-child){
-  margin: 10px 0 5px;
+  margin: 10px 0 0;
 }
 
 .discount-block{
@@ -145,6 +143,7 @@
   p{
     color: #938a8a;
     letter-spacing: 1px;
+    text-transform: uppercase;
   }
 }
 .holder {
