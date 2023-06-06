@@ -26,7 +26,7 @@ import iPhone13Pro from "../../src/assets/images/iphone13pro.png"
 import iphoneXR from "../../src/assets/images/xr.jpg"
 import macBookCategories from "../../src/assets/images/maxresdefault.JPG"
 import iMac from  "../assets/images/pro-xdr.png"
-import watch from "../assets/images/IMG_4258.JPG"
+import watch from "../assets/images/watch.jpg"
 import ipad from "../../src/assets/images/ipad_mini.png"
 import macBook from "../../src/assets/images/macbook.jpg"
 import macBookPro from "../../src/assets/images/macbook-pro-sierra-wallpaper.jpg"
@@ -37,18 +37,20 @@ import star from "../../src/assets/images/star.jpg"
 
 export const useInformation = () => {
     const categories = [
-        {
-            name: 'watch',
-            img: watch,
-            categories: 'clock',
-            id: 1
-        },
+
         {
             name: 'AirPods',
             img: earphones,
             categories: 'earphones',
             id: 2
         },
+        {
+            name: 'watch',
+            img: watch,
+            categories: 'clock',
+            id: 1
+        },
+
         {
             name: 'iPhone',
             img: iPhone11,
@@ -579,7 +581,7 @@ export const useInformation = () => {
         },
         {
             title:'Наши цены превосходны, как “Млечный Путь”',
-            text:'указанные цены на сайте окончательные, без всяких «хитрых» наценок и не подлежат изменению.',
+            text:'Указанные цены на сайте окончательные, без всяких «хитрых» наценок и не подлежат изменению.',
             id:5,
             img:star,
 

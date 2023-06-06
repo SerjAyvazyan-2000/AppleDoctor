@@ -15,14 +15,12 @@ const Contact = () => {
                             <div className="contact-title">
 
                                 <h3>СЕРВИСНЫЙ ЦЕНТР В КОТОРЫЙ ВОЗВРАЩАЮТСЯ</h3>
-                                <p>Диагностика — бесплатно, даже при отказе от ремонта</p>
                             </div>
                              <ContactForm/>
                         </div>
                         <div className="contact-tools">
                             <div className="contact-body">
                                 <p>    Срочный ремонт техники Apple</p>
-                                <p>    Оставьте заявку и получите скидку</p>
                             </div>
                             <div className="contact-number">
                                 <a href="tel:+7 (999)999-09-92">+7 (999)999-09-92</a>
