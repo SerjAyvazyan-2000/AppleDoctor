@@ -6,7 +6,6 @@ const PriseDevice = () => {
 
     const {categories} = useInformation()
     return<section id="priseDevice">
-        <div className="device-container">
             <div className="G-container">
                 <div className="device-header">
                     <h3>Цены на ремонт техники Apple:</h3>
@@ -14,7 +13,6 @@ const PriseDevice = () => {
                 </div>
                     <Categories categories={categories}/>
             </div>
-        </div>
 
 
 
