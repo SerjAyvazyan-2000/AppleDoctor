@@ -1,4 +1,5 @@
 @import "src/assets/style/variables";
+
 #home {
   margin-top: 70px;
   width: 100%;
@@ -15,6 +16,7 @@
 
 
 }
+
 .home-description {
   display: flex;
   flex-direction: column;
@@ -23,13 +25,15 @@
 
 
 }
-.home-description-info{
-   height: 400px;
-  h3{
-     color: white;
-    font-size: $fontSize25;
+
+.home-description-info {
+  height: 400px;
+
+  h3 {
+    color: $openRed;
+    font-size: $fontSize40;
     letter-spacing: 1px;
-    max-width: 300px;
+    max-width: 400px;
     line-height: $lineHeight;
     font-weight: bold;
 
@@ -37,38 +41,22 @@
   }
 
 }
-.home-logo{
-   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  h3{
+
+
+.home-logo-text {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 40px;
+  h3 {
     color: white;
     font-size: $fontSize25;
     letter-spacing: 2px;
-    max-width: 600px;
     line-height: $lineHeight;
+    text-transform: uppercase;
 
   }
-}
 
-.home-logo-img{
-  img{
-    width: 50px;
-    height: 60px;
-    object-fit: cover;
-  }
-}
-.home-logo-img{
-   display: flex;
-  align-items: center;
-  gap: 10px;
-
-  h3{
-    color: $white;
-    font-size: $fontSize25;
-
-  }
-  span{
+  span {
     color: $openRed;
   }
 }

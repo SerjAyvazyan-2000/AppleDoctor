@@ -8,31 +8,40 @@ const AboutUs = () => {
     return <section id="about">
             <div className="G-container">
                 <div className="about-content">
-
                      <div className="justUs-block">
                          <div className="just-title">
                              <h3>ПОЧЕМУ ВЫБИРАЮТ Apple Doctor</h3>
-
                          </div>
                          <div className="just-items">
                              {aboutUs.map(item => (
                                  <div key={item.id} className="just-item">
-                                     <div className="just-item-img ">
-                                         <img className="G-image" src={item.img} alt=""/>
+                                     <div className="holder">
+                                         <div className="star">
+                                             <div></div>
+                                             <div></div>
+                                             <div></div>
+                                             <div></div>
+                                         </div>
                                      </div>
                                      <div className="just-item-description">
                                          <h3>{item.title}</h3>
                                          <p>{item.text}</p>
                                      </div>
-
-
                                  </div>
                              ))}
                          </div>
-
                      </div>
-
                 </div>
+                    <div className="discount-block">
+                        {discount.map(item => (
+                            <div className="discount-items">
+                                <h3>{item.title}</h3>
+                                <p>{item.text}</p>
+                            </div>
+                        ))}
+                </div>
+
+
             </div>
 
     </section>

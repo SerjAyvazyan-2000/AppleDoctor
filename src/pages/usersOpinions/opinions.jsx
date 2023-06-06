@@ -4,8 +4,10 @@ import "./style.scss"
 import homeImage from "../../assets/images/home.JPG";
 import user from "../../assets/images/download.png"
 import logo from "../../assets/images/logo.png"
+import {useInformation} from "../../hooks/useInformation";
 
 const Opinions = () => {
+    const {aboutUs,discount} = useInformation()
 
     return <section id="opinions">
 
