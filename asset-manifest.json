@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AppleDoctor/static/css/main.b587ca60.css",
-    "main.js": "/AppleDoctor/static/js/main.37cf3d6a.js",
+    "main.css": "/AppleDoctor/static/css/main.d1a09a78.css",
+    "main.js": "/AppleDoctor/static/js/main.aea80764.js",
     "static/js/787.28cb0dcd.chunk.js": "/AppleDoctor/static/js/787.28cb0dcd.chunk.js",
     "static/media/macbook-pro-sierra-wallpaper.jpg": "/AppleDoctor/static/media/macbook-pro-sierra-wallpaper.69d61cccc277c9f36d29.jpg",
     "static/media/apple_z0te00035_5.jpg": "/AppleDoctor/static/media/apple_z0te00035_5.9f043e09ce66f616a504.jpg",
     "static/media/fon.jpg": "/AppleDoctor/static/media/fon.6b4ce716fd73615392e0.jpg",
     "static/media/home.JPG": "/AppleDoctor/static/media/home.6e8ea62cf4aa528046dd.JPG",
+    "static/media/aboutFon.png": "/AppleDoctor/static/media/aboutFon.0ea20407342a00b91994.png",
     "static/media/MacBook_air-Digital_HD_Wallpaper_1280x1024.jpg": "/AppleDoctor/static/media/MacBook_air-Digital_HD_Wallpaper_1280x1024.cec27dc00e25b388e5d0.jpg",
     "static/media/fonAbout.JPG": "/AppleDoctor/static/media/fonAbout.2d5955d320d342e08df9.JPG",
     "static/media/iphone-xs-3840x2160-4k-20235.jpg": "/AppleDoctor/static/media/iphone-xs-3840x2160-4k-20235.f949e26c2962925cd94c.jpg",
     "static/media/star.jpg": "/AppleDoctor/static/media/star.fd8f37e47516c9a090d5.jpg",
-    "static/media/about.JPG": "/AppleDoctor/static/media/about.a7eca4a6df688c1937bd.JPG",
     "static/media/icomoon.svg?oht3ix": "/AppleDoctor/static/media/icomoon.73b6bf9238368f1b6164.svg",
     "static/media/pro-xdr.png": "/AppleDoctor/static/media/pro-xdr.5921f96ac453fecd15af.png",
     "static/media/macbook.jpg": "/AppleDoctor/static/media/macbook.8ce15a13f0e2bc0fc76f.jpg",
@@ -28,12 +28,12 @@
     "static/media/11 pro.jpg": "/AppleDoctor/static/media/11 pro.a7ec4c1a8e09c8cc529f.jpg",
     "static/media/logo.svg": "/AppleDoctor/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/AppleDoctor/index.html",
-    "main.b587ca60.css.map": "/AppleDoctor/static/css/main.b587ca60.css.map",
-    "main.37cf3d6a.js.map": "/AppleDoctor/static/js/main.37cf3d6a.js.map",
+    "main.d1a09a78.css.map": "/AppleDoctor/static/css/main.d1a09a78.css.map",
+    "main.aea80764.js.map": "/AppleDoctor/static/js/main.aea80764.js.map",
     "787.28cb0dcd.chunk.js.map": "/AppleDoctor/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b587ca60.css",
-    "static/js/main.37cf3d6a.js"
+    "static/css/main.d1a09a78.css",
+    "static/js/main.aea80764.js"
   ]
 }
