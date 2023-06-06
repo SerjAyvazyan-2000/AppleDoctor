@@ -1,11 +1,11 @@
 import React from 'react';
 import "./style.scss"
-import aboutImg from "../../assets/images/about.JPG"
+import aboutImg from "../../assets/images/aboutFon.png"
 import {useInformation} from "../../hooks/useInformation";
 
 const AboutUs = () => {
     const {aboutUs,discount} = useInformation()
-    return <section id="about">
+    return <section id="about" style={{backgroundImage:`url(${aboutImg})`}}>
             <div className="G-container">
                 <div className="about-content">
                      <div className="justUs-block">

@@ -13,7 +13,7 @@ const Home = () => {
                     </div>
                       <div className="home-logo-text-border"></div>
                         <div className="home-logo-text">
-                            <h3>Диагностика <span>бесплатно-</span> даже при отказе от <span>ремонта</span></h3>
+                            <h3>Диагностика <span>бесплатно</span>    даже при отказе от <span>ремонта</span></h3>
                         </div>
                 </div>
 

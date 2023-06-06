@@ -9,6 +9,7 @@ import PriseDevice from "./pages/priseDevice/priseDevice";
 import ScrollTop from "./components/scrollTop/scrollTop";
 import "../src/assets/fonts/style.css"
 import Contact from "./pages/contact/contact";
+
 function App() {
   return (
     <div className="App ">
