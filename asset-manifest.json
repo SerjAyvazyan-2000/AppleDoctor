@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AppleDoctor/static/css/main.3cb19282.css",
+    "main.css": "/AppleDoctor/static/css/main.f38df9ff.css",
     "main.js": "/AppleDoctor/static/js/main.2196646a.js",
     "static/js/787.28cb0dcd.chunk.js": "/AppleDoctor/static/js/787.28cb0dcd.chunk.js",
     "static/media/macbook-pro-sierra-wallpaper.jpg": "/AppleDoctor/static/media/macbook-pro-sierra-wallpaper.69d61cccc277c9f36d29.jpg",
@@ -28,12 +28,12 @@
     "static/media/11 pro.jpg": "/AppleDoctor/static/media/11 pro.a7ec4c1a8e09c8cc529f.jpg",
     "static/media/logo.svg": "/AppleDoctor/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/AppleDoctor/index.html",
-    "main.3cb19282.css.map": "/AppleDoctor/static/css/main.3cb19282.css.map",
+    "main.f38df9ff.css.map": "/AppleDoctor/static/css/main.f38df9ff.css.map",
     "main.2196646a.js.map": "/AppleDoctor/static/js/main.2196646a.js.map",
     "787.28cb0dcd.chunk.js.map": "/AppleDoctor/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cb19282.css",
+    "static/css/main.f38df9ff.css",
     "static/js/main.2196646a.js"
   ]
 }
