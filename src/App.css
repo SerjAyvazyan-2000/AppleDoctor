@@ -1,4 +1,7 @@
+
 .App{
      overflow: hidden;
-     font-family: 'Roboto', sans-serif;
+     font-weight: 600;
+
+    font-family: 'Roboto', sans-serif;
 }

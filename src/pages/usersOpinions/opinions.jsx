@@ -12,7 +12,7 @@ const Opinions = () => {
     return <section id="opinions">
 
         <div className="opinions-container">
-            <div style={{width:'760px',height:'500px'}}>
+            <div className={"opinions-iframe"} >
                 <iframe style={{width:"100%",height:"100%"}} src="https://yandex.ru/maps-reviews-widget/1717455073?comments"></iframe>
             </div>
         </div>
