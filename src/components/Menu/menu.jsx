@@ -22,7 +22,9 @@ const Menu = ({menuActive,setMenuActive}) => {
                                 {item.name}
                             </a>
                         </li>
+
                     ))}
+
                 </ul>
             </nav>
 

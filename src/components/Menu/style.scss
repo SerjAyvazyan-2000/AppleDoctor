@@ -22,7 +22,7 @@
 
     li {
       a {
-        padding: 15px;
+        padding: 5px;
         margin: 15px;
         color: $white;
         transition: $transition;
@@ -34,10 +34,13 @@
           span{
              color: black;
           }
+
         }
 
         @media screen and (max-width: 1043px) {
           margin: 0 0 20px 0;
+          padding: 15px;
+
         }
 
         span {
@@ -72,6 +75,7 @@
     background: black;
     padding: 80px 10px 20px 10px;
     transition: .3s;
+    z-index: 49;
   }
 }
 

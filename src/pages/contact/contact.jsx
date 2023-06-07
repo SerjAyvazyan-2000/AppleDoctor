@@ -20,7 +20,7 @@ const Contact = () => {
                         </div>
                         <div className="contact-tools">
                             <div className="contact-body">
-                                <p>    Срочный ремонт <span>техники Apple</span></p>
+                                <p>    Срочный ремонт техники <span> Apple</span></p>
                             </div>
                             <div className="contact-number">
                                 <a href="tel:+7 (999)999-09-92">+7 (999)999-09-92</a>
