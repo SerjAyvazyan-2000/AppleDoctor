@@ -16,48 +16,38 @@
 
 
 }
-.home-menu-bg{
-   background: black;
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
 
 .home-description {
   display: flex;
   flex-direction: column;
   height: 100%;
+  margin-top: 20px;
 
 
 }
-
-.home-description-title {
+.home-description-title{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 
-  p {
+  p{
     cursor: pointer;
     color: $openRed;
     line-height: $lineHeight;
     font-size: $fontSize40;
     margin-top: 40px;
 
-    @media screen and (max-width: 753px) {
+    @media screen and (max-width: 753px){
       margin-top: 70px;
 
     }
   }
 }
-
-
-.home-title-block {
+.home-description-info {
+  height: 400px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 60px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
 
   h3 {
@@ -71,7 +61,16 @@
 
 
   }
-
+  p{
+    color: $openRed;
+    margin-top: 40px;
+    font-size: $fontSize40;
+    letter-spacing: 1px;
+    max-width: 400px;
+    line-height: $lineHeight;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
 }
 
@@ -82,17 +81,16 @@
   position: relative;
 
 }
-
-.home-logo-text, .logo-text {
+.logo-text{
+  position: relative;
 
   h3 {
     color: white;
-    font-size: $fontSize40;
+    font-size: $fontSize25;
     letter-spacing: 2px;
     line-height: $lineHeight;
-    padding: 0 0 20px;
-    max-width: 400px;
-    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
 
 
   }
@@ -100,63 +98,14 @@
   span {
     color: $openRed;
   }
-
-  p {
-    color: white;
-    font-size: $fontSize30;
-    letter-spacing: 2px;
-    line-height: $lineHeight;
-    padding: 20px 0 20px;
-    max-width: 400px;
-    font-weight: 600;
-
-
-  }
 }
-
-.home-logo-text {
- flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
-}
-
-.home-logo {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  position: relative;
-  z-index: 3;
-
-  img {
-    width: 50px;
-    height: 50px;
-
-
-  }
-
-  h1 {
-    color: $white;
-    font-size: $fontSize40;
-
-    a {
-      color: $white;
-    }
-
-  }
-
-  span {
-    color: $openRed;
-  }
-
-}
-.header-contact {
-  padding: 0 15px 0 0 ;
-
-  a {
-    color: white;
-  }
-
-  @media screen and (max-width: 1043px) {
-    display: none;
-  }
+.logo-bg{
+   position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: black;
+  opacity: .3;
+  border-radius: 40px;
 }

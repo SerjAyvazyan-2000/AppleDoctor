@@ -13,6 +13,7 @@ import Contact from "./pages/contact/contact";
 function App() {
   return (
     <div className="App ">
+       <Header/>
         <Home/>
         <AboutUs/>
         <Opinions/>

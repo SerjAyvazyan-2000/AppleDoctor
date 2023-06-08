@@ -3,35 +3,16 @@
   position: relative;
   width: 100%;
   height: 100%;
-  margin-top: 70px;
 }
 
 
-.opinions-info{
+.opinions-container{
    display: flex;
   justify-content: center;
-  margin: 0 auto;
-
+  align-items: center;
 }
 .opinions-iframe{
    width: 700px;
   height: 500px;
-
-}
-.opinions-title{
-   font-size: $fontSize30;
-  position: relative;
-  width: 100%;
-
-  h3{
-     text-align: center;
-  }
-}
-.opinions-logo{
-   width: 100px;
-  height: 120px;
-  display: block;
-  @media screen  and (max-width: 805px){
-     display: none;
-  }
+  margin: 0 auto;
 }

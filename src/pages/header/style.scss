@@ -34,7 +34,7 @@
 
   h1 {
     color: $white;
-    font-size: $fontSize40;
+
     a {
       color: $white;
     }
@@ -55,7 +55,22 @@
 
 }
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
+.header-contact {
+
+  a {
+    color: white;
+  }
+
+  @media screen and (max-width: 1043px) {
+    display: none;
+  }
+}
 
 .burger-btn {
   display: none;

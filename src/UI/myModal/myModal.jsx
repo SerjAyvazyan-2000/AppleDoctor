@@ -1,10 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import "./style.scss"
-import iPhone from "../../assets/images/iphone14promax.jpg";
 import RepairPrices from "../../components/repairPrices/repairPrices";
-import Product from "../../components/products/products";
 import Products from "../../components/products/products";
-import Contact from "../../pages/contact/contact";
 import ContactForm from "../../components/contactForm/contactForm";
 
 const MyModal = ({categoriesName, products, onClose, openModal}) => {
